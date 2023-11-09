@@ -1,4 +1,3 @@
-import threading
 from time import sleep
 from promise import Promise
 
