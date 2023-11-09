@@ -8,6 +8,7 @@ class Promise(Thread):
           Thread.__init__(self, group, target, name, args, kwargs)
           self.name = target
           self._return = None
+          self.start()
 
     """ Overriding RUN method inside Thread class"""
 
